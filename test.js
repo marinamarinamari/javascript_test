@@ -1,6 +1,9 @@
+let max = 50
+let num = 0;
 let count = 0;
-for (let i = 0; i <=50; i + 10){
-  count++
+while(num <= max){
+  num = num + 10;
+  count++;
 }
   console.log("今" + count +"回ループしました。");
 
