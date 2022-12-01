@@ -1,18 +1,9 @@
-let max = 50
-let num = 0;
-let count = 0;
-while(num <= max){
-  num = num + 10;
-  count++;
-}
-  console.log("今" + count +"回ループしました。");
-
-for (let i = 0; i <= 50; i++){
-  if(i % 4 === 0){
-    console.log("４で割れる数です。" + count +"");
-}
-}
-
-if (i == 50){
+for (let i = 1; i <= 50; i++){
+  if(i % 10 === 0) {
+    console.log("今" + i +"回ループしました。");
+} else if(i % 4 === 0){
+  console.log("４で割れる数です。" + i +"");
+} else {
   alert("５０回カウントが終わりました。");
+}
 }
